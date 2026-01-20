@@ -249,37 +249,81 @@
                                             </ol><br>
 
                                             <h5 class="heading-s">Key Campaign Highlights (2024-2025)</h5>
-                                            <p class="text-paragraph">For the entire month of April, Lilith’s Free Page
-                                                focused on the holiday of Easter.</p>
-                                            <p class="text-paragraph">Central to this campaign was the <span
-                                                    class="text-b">Easter Egg Hunt</span> wall game. Each “egg” was
-                                                numbered and had a different bundle inside. To play, fans tipped $15 on
-                                                a pinned fundraising post to redeem their prize bundle. Fans could also
-                                                submit multiple entries to redeem more prizes.</p>
-                                            <p class="text-paragraph">In addition to the wall game, I also posted on
-                                                Lilith’s Reddit profile once a week to get people to subscribe and
-                                                participate in the Egg Hunt. All my posts focused on the campaign,
-                                                emphasizing the fact that Lilith had lots of content
-                                                waiting to be seen by these users.</p>
-
-                                            <div class="spoiler-container">
-                                                <button class="spoiler-header">
-                                                    Campaign Assets: Easter Post Media and Caption
-                                                    <span class="spoiler-icon">▼</span>
-                                                </button>
-                                                <div class="spoiler-content">
-                                                    <div class="spoiler-inner">
-                                                        <p class="text-paragraph" align="center"><img
-                                                                src="/case studies/assets/lilith-rebrand_easter-post.webp"
-                                                                style="max-height:540px"></p>
-                                                        <p class="text-caption">Easter Egg Hunt wall game for Lilith’s
-                                                            Free Page (April 1-30, 2025). Poster designed by
-                                                            secretgfdiary. Original image courtesy the client.</p><br>
-
-                                                        <p class="heading-xs">Caption (Excerpt)</p>
-                                                        <p class="text-blockquote">Here, we celebrate Easter with a
-                                                            dark, dirty twist 😈 Inside each egg is a different
-                                                            surprise... which one will you choose?
+                                            <div class="accordion-container">
+                                            
+                                                <div class="accordion-item">
+                                                    <button class="accordion-header">
+                                                        Halloween (October)
+                                                        <span class="accordion-icon">+</span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                        <div class="accordion-inner">
+                                                            I introduced a weekly themed content cadence for the month of October. For five weeks, all communications centered on
+                                                            different costumes, creating a “what's next?” curiosity that stabilized retention and acclimated the audience to the new campaign frequency.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="accordion-item">
+                                                    <button class="accordion-header">
+                                                        OnlyFans Anniversary (November)
+                                                        <span class="accordion-icon">+</span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                        <div class="accordion-inner">
+                                                            We celebrated Allie’s first full year as a creator with a “Spicy Q&A” video series and a celebratory livestream. This
+                                                            shifted the tone to fan appreciation.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="accordion-item">
+                                                    <button class="accordion-header">
+                                                        Cyber Monday and Christmas (December)
+                                                        <span class="accordion-icon">+</span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                        <div class="accordion-inner">
+                                                            Allie’s page ran Cyber Monday sale for her long-form fitness content, a holiday livestream, and an engagement-based “naughty or nice” list that rewarded active fans with exclusive Christmas content.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="accordion-item">
+                                                    <button class="accordion-header">
+                                                        Birthday (January)
+                                                        <span class="accordion-icon">+</span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                        <div class="accordion-inner">
+                                                            During Allie’s birthday month, I utilized a fundraising model where fans pre-ordered a limited-time content bundle through tips. Additionally, Allie hosted a celebratory livestream to drive more donations. On her birthday, the bundle was sent to fans who pre-ordered and subsequently sold at a 50% discount to non-donators.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="accordion-item">
+                                                    <button class="accordion-header">
+                                                        Valentine’s Day (February)
+                                                        <span class="accordion-icon">+</span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                        <div class="accordion-inner">
+                                                            I posted a wall game that allowed fans to tip $15 in exchange for an exclusive striptease video. The fans tipped to “open” numbered gift boxes, each containing a different video. This was supported by a 3-day flash sale on standalone premium videos, creating two distinct revenue streams for the month.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="accordion-item">
+                                                    <button class="accordion-header">
+                                                        St. Patrick’s Day (March)
+                                                        <span class="accordion-icon">+</span>
+                                                    </button>
+                                                    <div class="accordion-content">
+                                                        <div class="accordion-inner">
+                                                            To avoid “campaign fatigue,” I intentionally dialed back this month to focus on retention. I ran a limited-time
+                                                            subscription promo (35% off) and a curated flash sale on dance videos to maintain Allie’s monthly net average even
+                                                            during a recovery period.
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -347,6 +391,34 @@
                                 <p style="margin-top: 5px; opacity: 0.6;">secretgfdiary &bull; 2025</p>
                             </footer>
     </main>
+
+    <script>
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const currentItem = header.parentElement;
+                const currentContent = header.nextElementSibling; // The .accordion-content div
+
+                // Check if this item is currently active
+                const isActive = currentItem.classList.contains('active');
+
+                // Optional: Close all other items (Accordian Style)
+                // If you want multiple to stay open, remove this loop
+                document.querySelectorAll('.accordion-item').forEach(item => {
+                    item.classList.remove('active');
+                    item.querySelector('.accordion-content').style.maxHeight = null;
+                });
+
+                // If it wasn't active before, open it now
+                if (!isActive) {
+                    currentItem.classList.add('active');
+                    // Calculate the height needed
+                    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+                }
+            });
+        });
+    </script>
 
     <script>
         const hamburger = document.getElementById('hamburger');
