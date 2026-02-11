@@ -193,6 +193,20 @@
             padding: 2px 10px;
         }
 
+        .heading-label-featured {
+            font-family: 'Readex Pro', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: #b98621;
+            display: inline-block;
+            /* Fixed: was inline */
+            background-color: #fff1c8;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 2px 10px;
+        }
+
         .heading-subtitle {
             font-family: 'Readex Pro', sans-serif;
             font-size: 1.0rem;
