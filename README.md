@@ -14,3 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<!--
+Note to self!
+
+This is how I merge the test branch to main:
+
+- 🔭 Open test repository.
+- 🌱 Open pull request.
+- 👯 Merge pull request.
+-->
