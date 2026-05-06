@@ -20,7 +20,8 @@ Note to self!
 
 This is how I merge the test branch to main:
 
-- 🔭 Open test repository.
-- 🌱 Open pull request.
-- 👯 Merge pull request.
+- Go to Github dashboard.
+- Open the test repository (NOT THE CODESPACE) : https://github.com/secretgfdiary/secretgfdiary/tree/test
+- Click Contribute. Then click Open Pull Request.
+- Add a title and/or description then do yo thang.
 -->
