@@ -28,7 +28,7 @@
             font-size: 1.0rem;
             font-weight: 320;
             color: #666666;
-            margin: 1em 2.5em;
+            margin: 0;
             border-left: 2px solid #ff78b2;
             padding-left: 15px;
         }
@@ -390,8 +390,8 @@
 
         /* --- 4. CUSTOM LIST STYLES --- */
         .list-unordered, .list-ordered {
-            margin: 15px 2.5em; 
-            padding-left: 17px; 
+            margin: 0; 
+            padding-left: 0; 
         }
 
         .list-unordered li, .list-ordered li {
@@ -412,7 +412,7 @@
             list-style: none; 
             counter-reset: section;
             /* Resetting this to 17px to match the text alignment exactly */
-            padding-left: 17px; 
+            padding-left: 0px; 
         }
         .list-ordered li::before {
             counter-increment: section;
